@@ -62,7 +62,7 @@ def find_corrosion(local_patches, samples):
     for patch in local_patches:
         for sample_number in range(len(samples)):
             deviation = (find_spectrum(patch) - samples[sample_number]) ** 2
-            mean_deviation = deviation.mean()
+            mean_deviation = np.sqrt(deviation.mean())
             if mean_deviation <= target_deviation:
                 patch_numbers = np.append(patch_numbers, cnt)
                 break
@@ -74,7 +74,7 @@ def find_corrosion(local_patches, samples):
 size_of_patch = [20, 20]  # [width, height]
 size_of_img = [1920, 1080]
 bins = 125
-target_deviation = 0.00007
+target_deviation = 0.0084
 
 diff_patches = [[], [], []]
 with open('corrosion_samples.json', 'r') as file:
