@@ -104,8 +104,8 @@ if __name__ == '__main__':
     end = time.perf_counter()
     print(end - start)
 
-    # rectangles_img = draw_borders(input_img, patches_with_corrosion)
-    # cv.imshow('img', rectangles_img)
-    # cv.waitKey(0)
-    # cv.destroyAllWindows()
+    rectangles_img = draw_borders(input_img, patches_with_corrosion)
+    cv.imshow('img', rectangles_img)
+    cv.waitKey(0)
+    cv.destroyAllWindows()
 
