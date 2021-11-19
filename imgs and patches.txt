@@ -1,0 +1,43 @@
+corrosion_3 2138
+corrosion_3 1372
+corrosion_3 1374
+corrosion_3 1375
+corrosion_3 1575
+corrosion_3 1790
+corrosion_3 1888
+corrosion_3 1305
+corrosion_3 1642
+corrosion_3 2522
+
+corrosion_10 1066
+corrosion_10 484
+corrosion_10 902
+corrosion_10 347
+corrosion_10 2402
+corrosion_10 3748
+corrosion_10 3773
+corrosion_10 1886
+corrosion_10 1695
+corrosion_10 3899
+
+corrosion_11 205
+corrosion_11 400
+corrosion_11 980
+corrosion_11 1373
+corrosion_11 1505
+corrosion_11 2358
+corrosion_11 2532
+corrosion_11 3232
+corrosion_11 3317
+corrosion_11 3682
+
+corrosion_14 1111
+corrosion_14 1481
+corrosion_14 1680
+corrosion_14 1986
+corrosion_14 2473
+corrosion_14 2151
+corrosion_14 3801
+corrosion_14 3789
+corrosion_14 3434
+corrosion_14 3591
